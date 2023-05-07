@@ -48,7 +48,10 @@ def driver_setup(request):
 
     yield driver
 
-    driver.quit()
+    try:
+        driver.quit()
+    except Exception as e:
+        pass
 
 
 # ----------------------------配置html_report报告--------------------------------
