@@ -101,7 +101,7 @@ def save_screenshot(html_path, name):
     global driver
     screenshot_path = os.path.join(html_path, name)
     driver.save_screenshot(screenshot_path)
-    html = '<div><img src="{}" alt="screenshot" width="180" height="320"' \
+    html = '<div><img src="{}" alt="screenshot" width="320" height="200"' \
            'onclick="window.open(this.src)" align="right"/></div>'.format(screenshot_path)
     return screenshot_path, html
 

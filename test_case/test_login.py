@@ -5,10 +5,8 @@
 # @Description :
 import logging
 import time
-from datetime import datetime
 import pytest
 from page.login_page import LoginPage
-from common.browser_driver import BrowserDriver
 
 global login_page
 
