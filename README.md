@@ -1,5 +1,6 @@
 # selenium_auto_test
 这是一款基于Pytest+Selenium二次封装的Web ui自动化框架，遵循PO模式编写用例，测试失败会自动截图，测试结束会生成详细可观的HTML报告
+
 ## 效果演示
 ![image_1.png](exampe_image%2Fimage_1.png)
 ## 准备工作
