@@ -4,6 +4,7 @@
 ## 效果演示
 ![image_1.png](exampe_image%2Fimage_1.png)
 ## 准备工作
+
 ### 本地环境搭建
 命令行执行
 ```angular2html
